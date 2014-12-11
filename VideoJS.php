@@ -8,8 +8,21 @@ namespace prawee\widgets;
 
 use yii\base\Widget;
 class VideoJS extends Widget{
+    public function init()
+    {
+        parent::init();
+    }
+
     public function run(){
+        $this->registerAssets();
         echo 'ok';
+    }
+    protected function registerAssets(){
+        $view = $this->getView();
+        $js='
+            
+        ';
+        $view->registerJs($js);
     }
 }
 

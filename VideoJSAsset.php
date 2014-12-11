@@ -1,30 +1,30 @@
 <?php
 /* 2014-12-11
  * @author Prawee Wongsa <konkeanweb@gmail.com>
- * @reference http://www.yiiframework.com/wiki/690/render-a-form-in-a-modal-popup-using-ajax/
  * @version 1.1
  */
-namespace prawee\widgets\assets;
+namespace prawee\widgets;
 
 use yii\web\AssetBundle;
 class VideoJSAsset extends AssetBundle{
     /*
      * @inheritdoc
      */
-    public $sourcePath='@prawee/widgets/assets';
+    public $sourcePath='@prawee/widgets';
 
     /*
      * @inheritdoc
      */
     public $css=[
-        'css/video-js.css',
+        'css/video-js.min.css',
     ];
 
     /*
      * @inheritdoc
      */
     public $js=[
-        'js/video.js'
+        'js/video.js',
+        'js/youtube.js'
     ];
 
     /*

@@ -1,0 +1,21 @@
+{
+    "name": "prawee/yii2-videojs-widgets",
+    "description": "Yii2 Extension for Generating Video Embed Codes from Video URLs . Such as Youtube etc.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","youtube","videojs","media"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prawee Wongsa",
+            "email": "konkeanweb@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "prawee\\videojs\\": ""
+        }
+    }
+}
